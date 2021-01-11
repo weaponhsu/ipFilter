@@ -1,6 +1,6 @@
 {
-    "name": "weaponhsu/ylaliopen",
-    "description": "youli-1688-sdk",
+    "name": "weaponhsu/tools",
+    "description": "weaponhsu php tools",
     "type": "library",
     "license": "MIT",
     "authors": [
