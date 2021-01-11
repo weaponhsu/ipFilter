@@ -1,0 +1,16 @@
+{
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload":{
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer"
+        }
+    }
+}
