@@ -1,16 +1,24 @@
 {
-    "require": {
-        "ext-curl": "*"
-    },
-    "autoload":{
-        "psr-4": {
-            "src\\": "src/"
+    "name": "weaponhsu/ylaliopen",
+    "description": "youli-1688-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weaponhsu",
+            "email": "huangxu4328@163.com"
         }
-    },
+    ],
     "repositories": {
         "packagist": {
             "type": "composer",
             "url": "https://mirrors.aliyun.com/composer"
+        }
+    },
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4": {
+            "src\\": "src/"
         }
     }
 }
