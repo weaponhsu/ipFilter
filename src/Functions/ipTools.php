@@ -39,7 +39,6 @@ class ipTools extends BaseClient
         $exp = 32 - $length;
         // 0和255这两个不能用
         $ip = pow($base, $exp) - 2;
-        var_dump($ip);
         $ip = decbin($ip);
 
         $subnet_mask_arr = [];

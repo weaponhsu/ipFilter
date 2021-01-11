@@ -20,7 +20,6 @@ class toolsContainer extends BaseContainer
 
     public function __construct($params = array())
     {
-        echo "toolsContainer被实例化了\r\n";
         parent::__construct($params);
     }
 }

@@ -19,7 +19,6 @@ class Container implements \ArrayAccess
 
     public function serviceRegister(Provider $provider)
     {
-        echo "provider被注册了\r\n";
         $provider->serviceProvider($this);
 
         return $this;
@@ -35,7 +34,6 @@ class Container implements \ArrayAccess
 
     public function offsetGet($offset)
     {
-        echo $offset . "offsetGet\r\n";
         if(isset($this->instances[$offset])){
             return $this->instances[$offset];
         }
